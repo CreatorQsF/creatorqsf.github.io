@@ -130,7 +130,13 @@ code {
 	padding: 0;
 	text-decoration: 0;
 	vertical-align: middle;
-	line-height: 1em;
+	line-height: 1.2em;
+}
+
+blockquote {
+	padding: 16px;
+	background-color: rgba(200, 200, 200, .55);
+	margin-bottom: 8px;
 }
 
 h1 {
