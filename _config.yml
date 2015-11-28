@@ -1,0 +1,10 @@
+timezone: Asia/Tokyo
+source: .
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+destination: ./_site
+encoding: utf-8
+safe: false
+port: 4000
+baseurl: /
+permalink: date

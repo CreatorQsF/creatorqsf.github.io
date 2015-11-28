@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+		<title>{{ page.title }} | de-liKeR</title>
+	</head>
+	<div class="loading"></div>
+	<header class="lp">
+		<div class="marks">
+			<div class="green"></div>
+			<div class="blue"></div>
+			<div class="orange"></div>
+			<div class="pink"></div>
+		</div>
+		<h1><a href="/">de-liKeR</a></h1>
+		<p><strong>DESIGN LIKE LINKS</strong></p>
+		<hr>
+	</header>
+	<nav class="lp">
+		<div class="nav-wrapper">
+			<ul>
+				<li><a href="/">Blog Top</a></li>
+				<li><a href="/about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	<article>
+		{{ content }}
+	</article>
+	<aside>
+		<h2>One more thing…</h2>
+		<ul>
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</aside>
+	<footer class="lp">
+		<p>copyright de-liKeR 2015</p>
+		<p>Auhtor:@CreatorQsF</p>
+	</footer>
+	<script>
+window.addEventListener("load", function() {
+	document.querySelector(".loading").classList.toggle("loaded");
+}, false);
+document.querySelector("nav").addEventListener("click", function() {
+	document.querySelector("nav").classList.toggle("active");
+}, false);
+document.querySelector("article").addEventListener("touchstart", function() {
+	document.querySelector("nav").classList.remove("active");
+}, false);
+	</script>
+	</body>
+</html>
