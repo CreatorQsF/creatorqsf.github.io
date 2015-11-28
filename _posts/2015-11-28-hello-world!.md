@@ -3,7 +3,7 @@ layout: default
 title: hello wolrd Jekyll
 ---
 
-## Hello Wolrd Jekyll
+## Hello World Jekyll
 
 ***
 
