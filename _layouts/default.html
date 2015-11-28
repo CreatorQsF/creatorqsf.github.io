@@ -29,9 +29,11 @@
 		</div>
 	</nav>
 	<article>
+		{% if page.url != "/" %}
 		<h1>{{ page.title }}</h1>
 		<p>{{ page.date | date:"%Y年%m月%d日" }}</p>
 		<hr>
+		{% endif %}
 		{{ content }}
 	</article>
 	<aside>
