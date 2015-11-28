@@ -111,6 +111,12 @@ article {
 	clear: both;
 }
 
+article ul li ul,
+article ul li ul li {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
 footer {
 	display: inline-block;
 }
