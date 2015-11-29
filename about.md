@@ -47,6 +47,8 @@ de-liKeR初代は独自CMSで作られていました。またその流れを受
 
 [twitter](https://twitter.com/CreatorQsF)と[facebook](https://facebook.com/CreatorQsF)はあまり好みではありませんがページは持っています。
 
+名刺は[こちら](http://f.9en.co/v2)
+
 ***
 
 #### 使える技術
