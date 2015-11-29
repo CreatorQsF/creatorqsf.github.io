@@ -22,7 +22,7 @@ footer {
 	top: calc(50vh - 44px);
 	left: calc(50vw - 44px);
 	background: transparent;
-	box-shadow: rgb(255,255,255) 0 0 0 100vmax;
+	box-shadow: rgb(255,255,255) 0 0 10px 100vmax;
 	z-index: 20000;
 	opacity: 1;
 	transition: .5s;
