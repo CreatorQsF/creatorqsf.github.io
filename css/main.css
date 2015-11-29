@@ -115,6 +115,10 @@ article {
 	clear: both;
 }
 
+article img {
+	max-width: 100%;
+}
+
 article ul li ul,
 article ul li ul li {
 	list-style-type: none;
