@@ -340,7 +340,7 @@ header {
 nav {
 	z-index: 9000;
 	position: fixed;
-	left: 0;
+	left: -208px;
 	top: 0;
 	width: 32px;
 	height: 100vh;
@@ -369,7 +369,7 @@ nav.active:before {
 }
 
 nav.active {
-	width: 240px;
+	left: 0;
 	transition: .32s;
 }
 
