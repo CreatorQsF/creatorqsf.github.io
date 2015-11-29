@@ -51,13 +51,16 @@ aside {
 	padding: 64px 16px 64px 16px;
 	background: rgb(50,50,50);
 	margin-top: 64px;
-	height: 640px;
-	overflow: hidden;
 }
 
 aside h2 {
 	font-size: 24px;
 	color: rgb(245, 245, 245);
+}
+
+aside ul {
+	margin-bottom: 32px;
+	padding: 0;
 }
 
 aside ul li {
@@ -120,6 +123,15 @@ article {
 
 article img {
 	max-width: 100%;
+	clear: both;
+	display: block;
+}
+
+article ul.post-list li ul li p {
+	font-weight: bold;
+	font-size: 8px;
+	margin-top: 4px;
+	letter-spacing: 0.40em;
 }
 
 article ul li ul,
@@ -384,7 +396,9 @@ nav.active * {
 }
 
 nav ul,
-nav ul li {
+nav ul li,
+aside ul,
+aside ul li {
 	list-style-type: none;
 }
 
