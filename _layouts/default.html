@@ -89,21 +89,17 @@ var f = function() {
 		dnav.classList.toggle("active");
 	}
 	var dnav = document.querySelector("nav");
-	dnav.addEventListener("mousedown", function() {
+	dnav.addEventListener("mouseup", function() {
 		lock(toggle);
-		dnav.dispatchEvent("touchstart");
 	}, false);
-	document.querySelector("article").addEventListener("mousedown", function() {
+	document.querySelector("article").addEventListener("mouseup", function() {
 		lock(remove);
-		dnav.dispatchEvent("touchstart");
 	}, false);
-	dnav.addEventListener("touchstart", function() {
+	dnav.addEventListener("touchstend", function() {
 		lock(toggle);
-		dnav.dispatchEvent("mousedown");
 	}, false);
-	document.querySelector("article").addEventListener("touchstart", function() {
+	document.querySelector("article").addEventListener("touchend", function() {
 		lock(remove);
-		dnav.dispatchEvent("mousedown");
 	}, false);
 	return(dnav);
 }
