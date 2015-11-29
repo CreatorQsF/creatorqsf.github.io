@@ -55,12 +55,54 @@
 window.addEventListener("load", function() {
 	document.querySelector(".loading").classList.toggle("loaded");
 }, false);
-document.querySelector("nav").addEventListener("click", function() {
-	document.querySelector("nav").classList.toggle("active");
-}, false);
-document.querySelector("article").addEventListener("touchstart", function() {
-	document.querySelector("nav").classList.remove("active");
-}, false);
+var f = function() {
+	var locking = false;
+	var lock = function() {
+		if(locking === false) {
+			locking = true;
+		} else if(locking === true) {
+			locking = false;
+		}
+		return(locking);
+	}
+	var remove = function() {
+		dnav.classList.remove("active");
+	}
+	var toggle = function() {
+		dnav.classList.toggle("active");
+	}
+	var dnav = document.querySelector("nav");
+	dnav.addEventListener("mousedown", function() {
+		if(!lock()) {
+			lock();
+			toggle();
+			lock();
+		}
+	}, false);
+	document.querySelector("article").addEventListener("mousedown", function() {
+		if(!lock()) {
+			lock();
+			remove();
+			lock();
+		}
+	}, false);
+	dnav.addEventListener("touchstart", function() {
+		if(!lock()) {
+			lock();
+			toggle();
+			lock();
+		}
+	}, false);
+	document.querySelector("article").addEventListener("touchstart", function() {
+		if(!lock()) {
+			lock();
+			remove();
+			lock();
+		}
+	}, false);
+	return(dnav);
+}
+f();
 	</script>
 	</body>
 </html>
