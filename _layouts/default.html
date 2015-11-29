@@ -91,15 +91,19 @@ var f = function() {
 	var dnav = document.querySelector("nav");
 	dnav.addEventListener("mousedown", function() {
 		lock(toggle);
+		dnav.dispatchEvent("touchstart");
 	}, false);
 	document.querySelector("article").addEventListener("mousedown", function() {
 		lock(remove);
+		dnav.dispatchEvent("touchstart");
 	}, false);
 	dnav.addEventListener("touchstart", function() {
 		lock(toggle);
+		dnav.dispatchEvent("mousedown");
 	}, false);
 	document.querySelector("article").addEventListener("touchstart", function() {
 		lock(remove);
+		dnav.dispatchEvent("mousedown");
 	}, false);
 	return(dnav);
 }
