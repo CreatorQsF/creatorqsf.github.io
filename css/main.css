@@ -342,7 +342,7 @@ nav {
 	position: fixed;
 	left: -208px;
 	top: 0;
-	width: 32px;
+	width: 240px;
 	height: 100vh;
 	background-color: rgba(50,50,50,.95);
 	transition: .32s;
