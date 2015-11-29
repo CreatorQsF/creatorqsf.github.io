@@ -1,8 +1,105 @@
 ---
 layout: default
-title: About
+title: About(作者とサイトについて)
 ---
 
 ## About Page
 
-Hello, everyone.
+今宵の月はどうでしょう。こんばんは、[@CreatorQsF](http://f.9en.co/?move=mainSns)です。  
+このページは、このブログについてと私について、僭越ながら少しばかりお話させていただくという目的のもと[@CreatorQsF](http://f.9en.co/?move=mainSns)が書き綴らさせていただくものです。
+
+***
+
+### このブログについて
+
+2014年02月01日、私はドメイン[de-liker.com](https://de-liker.com)を取得しました。このドメイン以下に存在するサービス、記事、及びそれ自体は[@CreatorQsF](http://f.9en.co/?move=mainSns)の責任において管理されプロジェクト[de-liKeR](https://de-liker.com)としてすすめられていることをここに明記します。
+
+もともとはQueensyaという思想を受け継ぎ[queensya.com](http://queensya.com)にて活動を行っていましたが、これをチーム化することにより自分専用のドメインを失ったことが発端となり、ブログde-liKeRを立ち上げるに至りました。  
+
+de-liKeR初代は独自CMSで作られていました。またその流れを受け継ぎ、何度かアップデートを繰り返した後、現在の形に至ります。
+
+扱うジャンルは
+
+- デザイン
+- 開発関係
+- tips
+- Apple製品
+- Googleについて
+
+が主になります。
+
+***
+
+### @CreatorQsFについて
+
+@CreatorQsFとは高校生Takeuchi Fumiのa.k.aであり、その他にQ'sF.などを使うことがありました。現在では@CreatorQsF及びCreatorQsFに大体集結しております。
+
+なお、githubはQs-F、elloはQsFです。
+
+- [github](https://github.com/Qs-F)
+- [ello](https://ello.co/QsF)
+
+主に使用するSNSはG+です。
+
+- [G+](https://google.com/+FumiTakeuchiQ)
+
+[twitter](https://twitter.com/CreatorQsF)と[facebook](https://facebook.com/CreatorQsF)はあまり好みではありませんがページは持っています。
+
+***
+
+#### 使える技術
+
+- Go(言語)
+- C(言語)
+- PHP(言語)
+- その他(docker, vagrant, wordpress, sass, shell script, vim script etc…)
+- DTM
+- 画像コンテンツ作成
+- ロゴ作成
+- webデザイン(コーディングまで含む)
+- フォント/書体について少し
+
+***
+
+#### 研究したいこと/していること
+
+- 人工知能
+- より安全に簡単に扱えるログインシステム
+- デザインのないデザイン
+- Nexus/iPhone/Xperia/WindowsPhoneなどのスマートフォン/タブレット(募金お待ちしてます!!)
+- 量子暗号
+
+***
+
+#### 好きなもの
+
+- [NORIROW'S DIARY](http://norirow.com)
+- [Google](https://google.com)
+- Apple製品
+- サカナクション
+- BOSE
+- Go言語
+- vim
+- 写真
+- chromebook
+
+***
+
+#### 嫌いなもの
+
+- Microsoft
+- Adobe
+- 作り手の思いが感じられないプロダクト
+
+こんな感じでしょうか。  
+基本的に言語と触れ合っているのが大好きです。
+
+***
+
+こんな感じでしょうか。それではよろしくお願いします。
+
+#### 自慢したいこと(ムカつく人は見ないこと)
+
+- Googleでランチした
+- Googleの誕生日にG+のフォロワーがちょうど400人になったこと
+- ドラムがほんの少し叩けること
