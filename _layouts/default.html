@@ -57,13 +57,18 @@ window.addEventListener("load", function() {
 }, false);
 var f = function() {
 	var locking = false;
-	var lock = function() {
-		if(locking === false) {
+	function lock(func) {
+		var err;
+		if(locking == false) {
 			locking = true;
-		} else if(locking === true) {
+			func();
 			locking = false;
+			err = "safe";
+		} else if(locking == true) {
+			err = "locking";
 		}
-		return(locking);
+		console.log(err);
+		return(err);
 	}
 	var remove = function() {
 		dnav.classList.remove("active");
@@ -73,32 +78,16 @@ var f = function() {
 	}
 	var dnav = document.querySelector("nav");
 	dnav.addEventListener("mousedown", function() {
-		if(!lock()) {
-			lock();
-			toggle();
-			lock();
-		}
+		lock(toggle);
 	}, false);
 	document.querySelector("article").addEventListener("mousedown", function() {
-		if(!lock()) {
-			lock();
-			remove();
-			lock();
-		}
+		lock(remove);
 	}, false);
 	dnav.addEventListener("touchstart", function() {
-		if(!lock()) {
-			lock();
-			toggle();
-			lock();
-		}
+		lock(toggle);
 	}, false);
 	document.querySelector("article").addEventListener("touchstart", function() {
-		if(!lock()) {
-			lock();
-			remove();
-			lock();
-		}
+		lock(remove);
 	}, false);
 	return(dnav);
 }
