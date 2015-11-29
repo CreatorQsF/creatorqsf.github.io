@@ -57,6 +57,10 @@ aside h2 {
 	color: rgb(245, 245, 245);
 }
 
+aside ul li {
+	margin-bottom: 16px;
+}
+
 @media screen and (min-width: 1366px) {
 	article {
 		width: 1000px;
