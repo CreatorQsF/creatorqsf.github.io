@@ -58,7 +58,7 @@ aside h2 {
 }
 
 aside ul li {
-	margin-bottom: 16px;
+	margin-bottom: 32px;
 }
 
 @media screen and (min-width: 1366px) {
