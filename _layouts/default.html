@@ -1,109 +1,111 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="/css/main.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
-		<link rel="alternate" type="application/atom+xml" title="de-liKeR" href="/rss/rss.xml" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png" type="image/png" sizes="500x500">
+    <link rel="apple-touch-icon" href="/img/touch.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
+    <link rel="alternate" type="application/atom+xml" title="de-liKeR" href="/rss/rss.xml" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-44448422-2', 'auto');
-    ga('send', 'pageview');
-		</script>
-		<title>{{ page.title }} | de-liKeR</title>
-	</head>
-	<div class="loading"></div>
-	<header class="lp">
-		<div class="marks">
-			<div class="green"></div>
-			<div class="blue"></div>
-			<div class="orange"></div>
-			<div class="pink"></div>
-		</div>
-		<h1><a href="/">de-liKeR</a></h1>
-		<p><strong>DESIGN LIKE LINKS</strong></p>
-		<hr>
-	</header>
-	<nav class="lp">
-		<div class="nav-wrapper">
-			<ul>
-				<li><a href="/">ブログトップ</a></li>
-				<li><a href="/about.html">ブログについて</a></li>
-				<li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li>
-			</ul>
-		</div>
-	</nav>
-	<article>
-		{% if page.url != "/" %}
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.date | date:"%Y年%m月%d日" }}</p>
-		<hr>
-		{% endif %}
-		{{ content }}
-	</article>
-	<aside>
-		<h2>One more thing…</h2>
-		<ul>
-			<li><a href="https://de-liker.com/consider-design-logical-thinking.html">デザイン考察、論理性 | de-liKeR</a></li>
-		</ul>
-		<h2>お知らせ</h2>
-		<ul>
-			<li><a href="http://padio.de-liker.com">Padio開発中</a></li>
-			<li><a href="http://ling.queensya.com">Ling完成</a></li>
-			<li><a href="https://de-liker.com/de-liker-future-as-a-blog.html">これからのブログとしてのde-liKeR | de-liKeR</a></li>
-		</ul>
-	</aside>
-	<hr>
-	<footer class="lp">
-		<p>copyright de-liKeR 2015</p>
-		<p>Auhtor:@CreatorQsF</p>
-	</footer>
-	<script>
+ga('create', 'UA-44448422-2', 'auto');
+ga('send', 'pageview');
+    </script>
+    <title>{{ page.title }} | de-liKeR</title>
+  </head>
+  <div class="loading"></div>
+  <header class="lp">
+    <div class="marks">
+      <div class="green"></div>
+      <div class="blue"></div>
+      <div class="orange"></div>
+      <div class="pink"></div>
+    </div>
+    <h1><a href="/">de-liKeR</a></h1>
+    <p><strong>DESIGN LIKE LINKS</strong></p>
+    <hr>
+  </header>
+  <nav class="lp">
+    <div class="nav-wrapper">
+      <ul>
+        <li><a href="/">ブログトップ</a></li>
+        <li><a href="/about.html">ブログについて</a></li>
+        <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li>
+      </ul>
+    </div>
+  </nav>
+  <article>
+    {% if page.url != "/" %}
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.date | date:"%Y年%m月%d日" }}</p>
+    <hr>
+    {% endif %}
+    {{ content }}
+  </article>
+  <aside>
+    <h2>One more thing…</h2>
+    <ul>
+      <li><a href="https://de-liker.com/consider-design-logical-thinking.html">デザイン考察、論理性 | de-liKeR</a></li>
+    </ul>
+    <h2>お知らせ</h2>
+    <ul>
+      <li><a href="http://padio.de-liker.com">Padio開発中</a></li>
+      <li><a href="http://ling.queensya.com">Ling完成</a></li>
+      <li><a href="https://de-liker.com/de-liker-future-as-a-blog.html">これからのブログとしてのde-liKeR | de-liKeR</a></li>
+    </ul>
+  </aside>
+  <hr>
+  <footer class="lp">
+    <p>copyright de-liKeR 2015</p>
+    <p>Auhtor:@CreatorQsF</p>
+  </footer>
+  <script>
 window.addEventListener("load", function() {
-	document.querySelector(".loading").classList.toggle("loaded");
+  document.querySelector(".loading").classList.toggle("loaded");
 }, false);
 var f = function() {
-	var locking = false;
-	function lock(func) {
-		var err;
-		if(locking == false) {
-			locking = true;
-			func();
-			locking = false;
-			err = "safe";
-		} else if(locking == true) {
-			err = "locking";
-		}
-		return(err);
-	}
-	var remove = function() {
-		dnav.classList.remove("active");
-	}
-	var toggle = function() {
-		dnav.classList.toggle("active");
-	}
-	var dnav = document.querySelector("nav");
-	dnav.addEventListener("mouseup", function() {
-		lock(toggle);
-	}, false);
-	document.querySelector("article").addEventListener("mouseup", function() {
-		lock(remove);
-	}, false);
-	dnav.addEventListener("touchstend", function() {
-		lock(toggle);
-	}, false);
-	document.querySelector("article").addEventListener("touchend", function() {
-		lock(remove);
-	}, false);
-	return(dnav);
+  var locking = false;
+  function lock(func) {
+    var err;
+    if(locking == false) {
+      locking = true;
+      func();
+      locking = false;
+      err = "safe";
+    } else if(locking == true) {
+      err = "locking";
+    }
+    return(err);
+  }
+  var remove = function() {
+    dnav.classList.remove("active");
+  }
+  var toggle = function() {
+    dnav.classList.toggle("active");
+  }
+  var dnav = document.querySelector("nav");
+  dnav.addEventListener("mouseup", function() {
+    lock(toggle);
+  }, false);
+  document.querySelector("article").addEventListener("mouseup", function() {
+    lock(remove);
+  }, false);
+  dnav.addEventListener("touchstend", function() {
+    lock(toggle);
+  }, false);
+  document.querySelector("article").addEventListener("touchend", function() {
+    lock(remove);
+  }, false);
+  return(dnav);
 }
 f();
-	</script>
-	</body>
+  </script>
+  </body>
 </html>
