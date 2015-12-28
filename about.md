@@ -16,7 +16,7 @@ title: About(作者とサイトについて)
 
 もともとはQueensyaという思想を受け継ぎ[queensya.com](http://queensya.com)にて活動を行っていましたが、これをチーム化することにより自分専用のドメインを失ったことが発端となり、ブログde-liKeRを立ち上げるに至りました。  
 
-de-liKeR初代は独自CMSで作られていました。またその流れを受け継ぎ、何度かアップデートを繰り返した後、現在の形に至ります。
+de-liKeR初代は独自CMSで作られていました。またその流れを受け継ぎ、何度かアップデートを繰り返した後、現在の形に至ります。少し前まではGoで作られていましたが、現在はJekyllとGitHub Pagesで運用されています。
 
 扱うジャンルは
 
@@ -50,6 +50,14 @@ de-liKeR初代は独自CMSで作られていました。またその流れを受
 [Pinterest](https://www.pinterest.com/CreatorQsF/)は好きです。よく使っております。
 
 名刺は[こちら](http://f.9en.co/v2)
+
+***
+
+Go言語を使用したWebサービスの開発を受け付けております。連絡はこちらまで。  
+[Mail](mailto:qsf@de-liker.com)  
+それと合わせて、Angular js + Material Designのシステムも同時に提供できます。  
+お好みでMaterial Designではなく、デザインも行うことができます。  
+サイトデザインのみも受け付けております。
 
 ***
 
