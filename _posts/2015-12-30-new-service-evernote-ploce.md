@@ -7,14 +7,14 @@ title: Evernoteのtemplateを一括で見れるようにしたいなと思い、
 
 今宵の月はどうでしょう。こんばんは、[@CreatorQsF](http://f.9en.co/?move=mainSns)です。  
 突然ですが、あたらしいサービス作りました。  
-https://evernote-ploce.de-liker.com/
+[Evernote Template Ploce](https://evernote-ploce.de-liker.com/)
 
 ***
 
 ### 事の発端
 
 昨日の夜、これ読んで、思ったことがありました。  
-http://beadored.com/evernote-2016-calendar-template-distribution/
+[Evernote はもっとテンプレートを配布するべきだと思う！Evernote 公式テンプレート「2016年 Evernote カレンダー」を入手してみました。 | R](http://beadored.com/evernote-2016-calendar-template-distribution/)
 
 「Evernoteのテンプレートってほとんど知られてないし、うまく活用できてない感じがすごいあるなぁ。」と。  
 そこで、Evernoteのテンプレート突っ込めるような、ポータル的なサイトあったらなんか良さそう、と思い立ち、Google検索するより何よりも、Goでここ何ヶ月も一生懸命継ぎ足し継ぎ足し改善して作ってきた、「servicehelper」という、小~中規模ならば知識さえあれば6時間ほどで作れるフレームワークではない、機能の寄せ集め、要するにライブラリですかね、みたいなものがローカルリポにありまして、仕事では何やかんやで使うことの多かったAngular(そんなに慣れているわけではない)をこれはもしかしたら正面から取り組むいい機会かもしれない、と思ったので、servicehelperにこの辺もうまく混合させたところへ、angular materialがめでたく1.0になったばかりだったので、これは使わない手はない!!!!と思い立ち、このサービスを作りました。なおデフォルトの色からいじってないのでなんか青いですが気にしないでくださいw  
@@ -38,6 +38,6 @@ goroutineは重い処理がなかったのでhttpサーバーのsericehelperの�
 
 そんなこんなで縁があったら使ってやってくださいwww(誰がevernoteのtemplateなんか作るんだろう…。)
 
-https://evernote-ploce.de-liker.com/﻿
+[Evernote Template Ploce](https://evernote-ploce.de-liker.com/)
 
 おわり
