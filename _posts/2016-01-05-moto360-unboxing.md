@@ -14,7 +14,7 @@ title: Moto 360 ファーストインプレッション・レビュー及び開�
 
 ### というわけで強引に開封の儀
 
-嫌がる司祭様([ノリロウ(@norirow)さん | Twitter](https://twitter.com/norirow))をお連れしてきて(大嘘)、早速開封の儀です。
+嫌がる司祭様( [ノリロウ(@norirow)さん | Twitter](https://twitter.com/norirow) )をお連れしてきて(大嘘)、早速開封の儀です。
 
 ***
 
