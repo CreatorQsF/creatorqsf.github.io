@@ -28,7 +28,7 @@ title: Podcastを始めたいけど仲間がいない
 
 - Google, Apple等の少しgeekなお話
 - Go 1.6の改善点やGoogle Chrome 47のメモリのお話とかかなりマニアックなお話(できればGopherでvimmerで機械学習と量子暗号に興味があるとこちらがすごい楽しそう)
-- ハンバーガーメニューは使われるべきかなどのデザイン論理のお話(たとえば[こんな感じ。→ デザイン考察、論理性 | de-liKeR](https://de-liker.com/consider-design-logical-thinking.html)
+- ハンバーガーメニューは使われるべきかなどのデザイン論理のお話 ( たとえば[デザイン考察、論理性 | de-liKeR](https://de-liker.com/consider-design-logical-thinking.html)とかね )
 
 とかとか。別に私の興味のないことでも全然構わないんですけどね。一人でくっちゃべると寂しくなるので、誰か話し相手になってくださいという、そういうお話です。
 
