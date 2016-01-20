@@ -30,7 +30,7 @@ ga('send', 'pageview');
     </div>
     <h1><a href="/">de-liKeR</a></h1>
     <p><strong>DESIGN LIKE LINKS</strong></p>
-    <hr>
+    <hr style="background-color: #00a050;">
   </header>
   <nav class="lp">
     <div class="nav-wrapper">
@@ -42,12 +42,11 @@ ga('send', 'pageview');
     </div>
   </nav>
   <article>
-    {% if page.url != "/" %}
     <h1>{{ page.title }}</h1>
     <p>{{ page.date | date:"%Y年%m月%d日" }}</p>
     <hr>
-    {% endif %}
     {{ content }}
+    <hr>
   </article>
   <aside>
     <h2>One more thing…</h2>
@@ -59,7 +58,6 @@ ga('send', 'pageview');
       <li><a href="https://de-liker.com/prepare-to-start-podcast.html">Podcastを始める仲間を募集してます</a></li>
     </ul>
   </aside>
-  <hr>
   <footer class="lp">
     <p>copyright de-liKeR 2015</p>
     <p>Auhtor:@CreatorQsF</p>
