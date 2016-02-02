@@ -1,4 +1,5 @@
 /* copyright 2015 de-liKeR */
+@charset "UTF-8";
 
 footer {
   display: inline-block;
@@ -49,7 +50,7 @@ footer {
 
 aside {
   padding: 64px 16px 64px 16px;
-  background: rgb(50,50,50);
+  background: rgba(50, 50, 50, .95);
   margin-top: 64px;
 }
 
@@ -79,7 +80,9 @@ aside ul li {
   article {
     width: 680px;
   }
-
+  header {
+    width: calc(100vw - 320px - 32px);
+  }
   aside {
     width: 320px;
     position: fixed;
@@ -187,7 +190,8 @@ blockquote {
 }
 
 h1 {
-  font-size: calc(8px * 5);
+  font-size: calc(8px * 7);
+  font-weight: 100;
 }
 
 h2 {
@@ -356,7 +360,24 @@ header h1 a {
 }
 
 header {
-  margin: 24px 0 16px 0;
+  background-image: url(/img/header-img.jpg);
+  background-size: cover;
+  background-position: center calc(50% + 8px);
+  padding: 64px 0 64px 0;
+}
+
+header:hover h1 {
+  transition: .32s;
+  background-color: #00a050;
+}
+
+header:hover p strong {
+  transition: .62s;
+  color: #00a050;
+}
+
+header > p > strong {
+  letter-spacing: .06em;
 }
 
 
@@ -386,20 +407,18 @@ nav {
 }
 
 nav:before {
-  /*font-family: 'Material Icons';*/
-  content: ">";
+  content: "\2026";
   font-weight: 900;
   position: fixed;
   font-size: 24px;
   top: calc(50vh - 8px);
-  left: 8px;
+  left: 7px;
   color: rgb(245,245,245);
-  -webkit-tranform: rotate(0deg);
   transition: .15s;
 }
 
 nav.active:before {
-  -webkit-transform: rotate(180deg);
+  -webkit-transform: rotate(270deg);
   transition: .15s;
 }
 
