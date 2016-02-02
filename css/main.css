@@ -410,7 +410,7 @@ nav {
   top: 0;
   width: 240px;
   height: 100vh;
-  background-color: rgba(50,50,50,.95);
+  background-color: rgb(50,50,50);
   transition: .32s;
   cursor: pointer;
   padding-top: 16px;
