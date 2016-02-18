@@ -121,7 +121,7 @@ chromecast audioはこの全てを解決してくれます。素晴らしいで�
 
 ***
 
-![リセットボタン](https://s-media-cache-ak0.pinimg.com/originals/45/39/e3/4539e39023b6e7e8739a383881e4b3a8.jpg)
+![リセットボタン](https://s-media-cache-ak0.pinimg.com/originals/80/cb/cf/80cbcfc1fea25106fd49cf3cfe3ecb87.jpg)
 
 反対側にリセットボタンっぽいものがあります。
 
