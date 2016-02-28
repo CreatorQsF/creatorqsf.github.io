@@ -8,6 +8,8 @@ Target:出演者
 
 ---
 
+![りんごなごーぐる](/img/applegoogle.svg)
+
 この番組は、[@treastrain](http://treastrain.jp)と[@CreatorQsF](http://f.9en.co/?move=mainSns)がお送りする20分のPodcast番組です。  
 配信は[りんごなごーぐる.de-liker.com](https://りんごなごーぐる.de-liker.com)で行う予定です。
 
