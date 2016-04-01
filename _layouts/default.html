@@ -19,125 +19,52 @@ ga('create', 'UA-44448422-2', 'auto');
 ga('send', 'pageview');
     </script>
     <title>{{ page.title }} | de-liKeR</title>
-    <style>
-@keyframes cb {
-  0% {
-    color: rgb(255, 255, 0);
-    background: rgb(255, 0, 0);
-  }
-  50% {
-    color: rgb(255, 255, 0);
-    background: rgb(255, 0, 0);
-  }
-  51% {
-    color: rgb(255, 0, 0);
-    background: rgb(255, 255, 0);
-  }
-  100% {
-    color: rgb(255, 0, 0);
-    background: rgb(255, 255, 0);
-  }
-}
-button {
-  margin 16px;
-  padding: 24px;
-  font-size: 32px;
-    background: rgb(255, 0, 0);
-  animation: cb 1s infinite;
-}
-.wow * {
-  writing-mode: tb-rl; /* IE独自仕様 */
-  writing-mode: vertical-rl;
-  -moz-writing-mode: vertical-rl;
-  -o-writing-mode: vertical-rl;
-  -webkit-writing-mode: vertical-rl;
-}
-    .wow article {
-      padding-top: 32px;
-    }
-    .wow footer, .wow aside, .wow nav {
-      display: none;
-    }
-    @keyframes rotete{
-      0% {
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-      }
-      50% {
-        transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-      }
-      100% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-      }
-    }
-    @keyframes dooown{
-      0% {
-        transform: scale(1);
-        -webkit-transform: scale(1);
-      }
-      100% {
-        transform: scale(0);
-        -webkit-transform: scale(0);
-      }
-    }
-    .wow body {
-      animation: dooown 60s;
-      -webkit-animation: dooown 60s;
-    }
-    .wow div.dom {
-      animation: rotete 10s infinite;
-      -webkit-animation: rotete 10s infinite;
-    }
-    </style>
   </head>
   <body>
-    <div class="dom">
-      <div class="loading"></div>
-      <header class="lp">
-        <div class="marks">
-          <div class="green"></div>
-          <div class="blue"></div>
-          <div class="orange"></div>
-          <div class="pink"></div>
-        </div>
-        <h1><a href="/">de-liKeR</a></h1>
-        <p><strong>DESIGN LIKE LINKS</strong></p>
-      </header>
-      <nav class="lp">
-        <div class="nav-wrapper">
-          <ul>
-            <li><a href="/">ブログトップ</a></li>
-            <li><a href="/about.html">ブログについて</a></li>
-            <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li>
-          </ul>
-        </div>
-      </nav>
-      <article>
-        <button>よみやすくする!</button>
-        <hr style="background-color: #00a050;">
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.date | date:"%Y年%m月%d日" }}</p>
-        <hr>
-        {{ content }}
-        <hr>
-      </article>
-      <aside>
-        <h2>One more thing…</h2>
+    <div class="loading"></div>
+    <header class="lp">
+      <div class="marks">
+        <div class="green"></div>
+        <div class="blue"></div>
+        <div class="orange"></div>
+        <div class="pink"></div>
+      </div>
+      <h1><a href="/">de-liKeR</a></h1>
+      <p><strong>DESIGN LIKE LINKS</strong></p>
+    </header>
+    <nav class="lp">
+      <div class="nav-wrapper">
         <ul>
-          <li><a href="https://de-liker.com/consider-design-logical-thinking.html">デザイン考察、論理性 | de-liKeR</a></li>
+          <li><a href="/">ブログトップ</a></li>
+          <li><a href="/about.html">ブログについて</a></li>
+          <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li>
         </ul>
-        <h2>お知らせ</h2>
-        <ul>
-          <li><a href="https://de-liker.com/prepare-to-start-podcast.html">Podcastを始める仲間を募集してます</a></li>
-        </ul>
-      </aside>
-      <footer class="lp">
-        <p>copyright de-liKeR 2015</p>
-        <p>Author:@CreatorQsF</p>
-      </footer>
-      <script>
+      </div>
+    </nav>
+    <article>
+      <button>よみやすくする!</button>
+      <hr style="background-color: #00a050;">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.date | date:"%Y年%m月%d日" }}</p>
+      <hr>
+      {{ content }}
+      <hr>
+    </article>
+    <aside>
+      <h2>One more thing…</h2>
+      <ul>
+        <li><a href="https://de-liker.com/consider-design-logical-thinking.html">デザイン考察、論理性 | de-liKeR</a></li>
+      </ul>
+      <h2>お知らせ</h2>
+      <ul>
+        <li><a href="https://de-liker.com/prepare-to-start-podcast.html">Podcastを始める仲間を募集してます</a></li>
+      </ul>
+    </aside>
+    <footer class="lp">
+      <p>copyright de-liKeR 2015</p>
+      <p>Author:@CreatorQsF</p>
+    </footer>
+    <script>
 window.addEventListener("load", function() {
   document.querySelector(".loading").classList.toggle("loaded");
 }, false);
@@ -177,10 +104,6 @@ var f = function() {
   return(dnav);
 }
 f();
-document.getElementsByTagName("button")[0].addEventListener("click", function() {
-  document.getElementsByTagName("html")[0].classList.add("wow")
-})
-      </script>
-    </div>
+    </script>
   </body>
 </html>
