@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="160">
+    <desc iVinci="yes" version="4.6" gridStep="20" showGrid="no" snapToGrid="no" codePlatform="0"/>
+    <g id="Layer1" name="Layer 1" opacity="1">
+        <g id="Shape1">
+            <desc shapeID="1" type="0" basicInfo-basicType="0" basicInfo-roundedRectRadius="12" basicInfo-polygonSides="6" basicInfo-starPoints="5" bounding="rect(-135,-79.9999,270,160)" text="" font-familyName="Helvetica" font-pixelSize="20" font-bold="0" font-underline="0" font-alignment="1" strokeStyle="0" markerStart="0" markerEnd="0" shadowEnabled="0" shadowOffsetX="0" shadowOffsetY="2" shadowBlur="4" shadowOpacity="160" blurEnabled="0" blurRadius="4" transform="matrix(1,0,0,1,135,79.9999)" pers-center="0,0" pers-size="0,0" pers-start="0,0" pers-end="0,0" locked="0" mesh="" flag=""/>
+            <path id="shapePath1" d="M20,0 C20,0 116.5,0 116,0 L106,83 C101,77 95.5,72.5 90.5,70 C86,68 80,66.5 73,66.5 C59.5,66.5 48.5,71.5 39.5,81 C30.5,90.5 26,102.5 26,117 C26,130.5 30,141.5 38.5,150.5 C42.5,154.5 47,158 52.5,160 L0,160 L20,0 M137.5,0 C180,0 270,0 270,0 L249.5,160 C249.5,160 231.5,160 206,160 C206.5,160 207,159.5 207.5,159.5 C213.5,156.5 219.5,151 225,143.5 L209,134.5 C203.5,142 196,146 186,146 C178.5,146 172.5,143.5 167.5,139.5 C163,135 160.5,129.5 160.5,122.5 L231.5,122.5 C231.5,119 231.5,116.5 231.5,115 C231.5,99.9997 227.5,88 219.5,79 C212,70.5 201,66 187.5,66 C173.5,66 162,71 153,80.5 C143.5,90.5 139,103 139,117.5 C139,131.5 143,143 151.5,151.5 C155.5,155 159.5,158 164.5,160 C149,160 133,160 118,160 L137.5,0 M97,160 C93,160 89,160 85.5,160 C89,158 93,155 98,151 L97,160 M103,111 C103,103 100.5,96.9997 95.5,92 C91,87 84.5,84.5 77,84.5 C68.5,84.5 61.5,88 56,94 C50.5,100.5 47.5,108.5 47.5,118 C47.5,126.5 50,133 55,138 C59.5,142.5 66,145 73.5,145 C82,145 88.5,142 94.5,135 C99.9999,128.5 103,120.5 103,111 M210,105 C207.5,91 200,84 186.5,84 C174,84 165.5,91 162,105 L210,105 Z" style="stroke:none;fill-rule:evenodd;fill:#000000;fill-opacity:1;"/>
+        </g>
+    </g>
+</svg>

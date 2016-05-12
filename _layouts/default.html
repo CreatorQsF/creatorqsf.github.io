@@ -21,7 +21,10 @@ ga('send', 'pageview');
     <title>{{ page.title }} | de-liKeR</title>
   </head>
   <body>
-    <div class="loading"></div>
+    <div class="loadicon"></div>
+    <div class="filter">
+    <p>初めてアクセスされる場合、フォントのダウンロードを行いますのでページのロードが極端に遅い場合がございます。ご了承ください。</p>
+    </div>
     <header class="lp">
       <div class="marks">
         <div class="green"></div>
@@ -29,34 +32,27 @@ ga('send', 'pageview');
         <div class="orange"></div>
         <div class="pink"></div>
       </div>
-      <h1><a href="/">de-liKeR</a></h1>
-      <p><strong>DESIGN LIKE LINKS</strong></p>
+      <h1 class="loading"><a href="/"><img src="/img/de-liker-logo.svg" alt=""></a></h1>
+      <p><a href="about.html"><strong>de-liKeR - DESIGN LIKE LINK</strong></a></p>
     </header>
-    <nav class="lp">
-      <div class="nav-wrapper">
-        <ul>
-          <li><a href="/">ブログトップ</a></li>
-          <li><a href="/about.html">ブログについて</a></li>
-          <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li>
-        </ul>
-      </div>
-    </nav>
     <article>
-      <hr>
-      <h2>[緊急]九州地方での災害情報に関する安否確認はこちらから行えます</h2>
-<iframe
-  src="https://google.org/personfinder/japan/?ui=small"
-  width=400 height=300 frameborder=0
-  style="border: dashed 2px #77c"></iframe>
-<hr>
-      <hr style="background-color: #00a050;">
+      <hr style="background-color: rgb(50,50,50) ">
       <h1>{{ page.title }}</h1>
-      <p>{{ page.date | date:"%Y年%m月%d日" }}</p>
+      <p class="pub-date">{{ page.date | date:"%Y年%m月%d日" }}</p>
+      <hr>
+      <p><a href="/about.html">このブログ <img height="32px" src="/img/de-liker-new.svg" alt="" style="display: inline"> ( <img height="32px" src="/img/de-liker-logo.svg" style="display: inline"> )とは…</a></p>
       <hr>
       {{ content }}
       <hr>
+      <p><a href="/about.html"><img src="/img/de-liker-new.svg" alt="" style="display: inline"></a></p>
+      <p>がお送りしました。<a href="/">他の記事</a>もどうですか?</p>
+      <hr>
+      </p>
     </article>
     <aside>
+      <!-- <p><img src="/img/de-liker-new.svg" alt=""><br> -->
+      <!-- <strong>DESIGN LIKE LINKS</strong></p>          -->
+      <ul> <li><a href="/">ブログトップ</a></li> <li><a href="/about.html">ブログについて</a></li> <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li> </ul>
       <h2>One more thing…</h2>
       <ul>
         <li><a href="https://de-liker.com/consider-design-logical-thinking.html">デザイン考察、論理性 | de-liKeR</a></li>
@@ -67,12 +63,21 @@ ga('send', 'pageview');
       </ul>
     </aside>
     <footer class="lp">
+      <p><img src="/img/de-liker-new.svg" alt=""></p>
       <p>copyright de-liKeR 2015</p>
       <p>Author:@CreatorQsF</p>
     </footer>
     <script>
 window.addEventListener("load", function() {
-  document.querySelector(".loading").classList.toggle("loaded");
+  document.getElementsByClassName("loadicon")[0].classList.toggle("loaded");
+  document.querySelector("header h1 a img").classList.toggle("loaded");
+  document.querySelector("header h1").classList.toggle("loading");
+  document.querySelector("header h1").classList.toggle("loaded");
+  document.getElementsByTagName("body")[0].classList.toggle("loaded");
+  document.getElementsByTagName("header")[0].classList.toggle("loaded");
+  document.getElementsByTagName("article")[0].classList.toggle("loaded");
+  document.getElementsByTagName("aside")[0].classList.toggle("loaded");
+  document.getElementsByClassName("filter")[0].classList.toggle("loaded");
 }, false);
 var f = function() {
   var locking = false;
@@ -109,7 +114,7 @@ var f = function() {
   }, false);
   return(dnav);
 }
-f();
+// f();
     </script>
   </body>
 </html>
