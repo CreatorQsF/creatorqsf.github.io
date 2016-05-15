@@ -409,9 +409,8 @@ header h1.loaded {
 
 header h1 a img {
   margin: calc(50vh - 211px / 2) 0;
-  width: 300px;
+  max-width: 300px;
   padding: 16px 0;
-  border: 2px solid transparent;
   transition: .8s;
 }
 
