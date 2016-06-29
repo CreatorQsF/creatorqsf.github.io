@@ -224,7 +224,7 @@ li {
   padding: 0;
   text-decoration: 0;
   vertical-align: middle;
-  line-height: 1.75em;
+  line-height: 1.6em;
   letter-spacing: .08em;
 }
 
@@ -303,7 +303,7 @@ h6,
 p,
 ul,
 ol {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 h2,
