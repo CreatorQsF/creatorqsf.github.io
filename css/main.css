@@ -165,6 +165,33 @@ footer{
   clear: both;
 }
 
+article > de-attr.out {
+  display: none;
+}
+
+article > de-attr > p.pub-date,
+article > de-attr > p.title,
+article > de-attr > p.desc {
+  margin-bottom: 0;
+}
+
+article > de-attr > p.desc::before {
+  content: "“";
+}
+
+article > de-attr > p.desc::after {
+  content: "”";
+}
+
+article > de-attr > p.desc {
+  letter-spacing: .3em;
+}
+
+article > de-attr > p.title {
+  font-weight: 900;
+  font-size: 48px;
+}
+
 /* body {                */
 /*   padding-left: 32px; */
 /* }                     */
@@ -421,6 +448,7 @@ header h1 a img.loaded {
 
 p.pub-date {
   letter-spacing: .4em;
+  font-size: 16px;
 }
 
 /* header h1 a img:hover {             */
