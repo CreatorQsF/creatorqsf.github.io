@@ -34,7 +34,7 @@ de-liKeR初代は独自CMSで作られていました。またその流れを受
 
 ![CreatorQsF Profile Image](https://s-media-cache-ak0.pinimg.com/originals/f7/a0/26/f7a0263467a9e103d02e59ff857f6e4a.jpg)
 
-@CreatorQsFとは高校生Takeuchi Fumiのa.k.a.であり、その他にQ'sF.などを使うことがありました。現在では@CreatorQsF及びCreatorQsFに大体集結しております。
+@CreatorQsFとは高校生Takeuchi Fumiのa.k.a.であり、その他にQ'sF.などを使うことがありました。現在では @CreatorQsF 及び CreatorQsF に大体集結しております。
 
 なお、githubはQs-F、elloはQsFです。
 
