@@ -3,7 +3,7 @@ layout: default
 title: "[Values] de-liKeR Valuesの紹介"
 ---
 
-# Valuesの紹介
+## Valuesの紹介
 
 今宵の月はどうでしょう。こんばんは、[@CreatorQsF](http://f.9en.co/?move=mainSns)です。  
 私は夏の月が綺麗だなと感じます。魅力的ですよね月って。丸くて、さり気なく光っていて、そして美しいことの象徴としてもよく使われている気がします。  
