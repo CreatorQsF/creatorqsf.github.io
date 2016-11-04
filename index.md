@@ -7,12 +7,11 @@ title: Hello
 
 <ul class="post-list">
 {% for post in site.posts %}
-<li>
-<ul>
-	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-	<li><p>{{ post.date | date:"%Y年%m月%d日" }}</p></li>
-</ul>
-</li>
+	<li>
+	  <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+	  <p class="pub-date">{{ post.date | date:"%Y·%m·%d" }}</p>
+    <hr>
+	</li>
 {% endfor %}
 </ul>
 
