@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/img/favicon.png" type="image/png" sizes="500x500">
     <link rel="apple-touch-icon" href="/img/touch.png">
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjp.css">
     <link rel="alternate" type="application/atom+xml" title="de-liKeR" href="/rss/rss.xml" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://cdn.de-liker.com/fonts/products/style.css">
+    <link rel="stylesheet" href="/assets/fonts/fonts.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,40 +29,37 @@ ga('send', 'pageview');
     <p>初めてアクセスされる場合、フォントのダウンロードを行いますのでページのロードが極端に遅い場合がございます。ご了承ください。</p>
     </div>
     <header class="lp">
-      <!-- <div style="background: rgba(255, 255, 255, .5); -webkit-backdrop-filter: blur(10px); width: 100vw; height: 48px; position: fixed; top: 2px; left: 0; text-align: center;"><a href="/" style="line-height: 1em;"><img src="/img/de-liker-new.svg" alt="" style="height: 32px; padding: 4px 0 0 0;"></a> -->
-      <!--   <p style="margin-bottom: 0; font-size: 8px; line-height: 1em;"><a style="line-height: 1em;" href="about.html">DESIGN LIKE LINK</a></p>                                                                                                                                                                -->
-      <!-- </div>                                                                                                                                                                                                                                                                                                  -->
-      <!-- <img height="32px" src="/img/de-liker-new.svg" alt="" style="width: 160px; height: auto; position: fixed; top: 0; left: 0;"> -->
       <div class="marks">
         <div class="green"></div>
         <div class="blue"></div>
         <div class="orange"></div>
         <div class="pink"></div>
       </div>
-      <h1 class="loading"><a href="/"><img src="/img/de-liker-logo.svg" alt=""></a></h1>
-      <!-- <p><a href="about.html"><strong>de-liKeR - DESIGN LIKE LINK</strong></a></p> -->
+      <div class="title">
+        <h1><a href="/"><img src="/img/de-liker-logo.svg" alt="de-liKeR Logo"></a></h1>
+        <a href="/about.html">About</a>
+        <a href="/">Top</a>
+        <a href="mailto:qsf@de-liker.com">Contact</a>
+      </div>
     </header>
     <article>
+      <hr>
       <de-attr class="out">
-        <!-- <p class="pub-date">{{ page.date | date:"%Y/%m/%d" }}</p> -->
         <p class="title"></p>
         <p class="desc"></p>
       </de-attr>
-      <hr style="background-color: rgb(50, 50, 50);">
       <h1>{{ page.title }}</h1>
-      <p class="pub-date">{{ page.date | date:"%Y/%m/%d" }}</p>
-      <!-- <p><a href="/about.html">このブログ <img height="32px" src="/img/de-liker-new.svg" alt="" style="display: inline"> ( <img height="32px" src="/img/de-liker-logo.svg" style="display: inline"> )とは…</a></p> -->
+      <p class="pub-date">{{ page.date | date: "%Y·%m·%d" }}</p>
       <hr>
       {{ content }}
-      <hr>
-      <p><a href="/about.html"><img src="/img/de-liker-new.svg" alt="" style="display: inline"></a></p>
-      <p>がお送りしました。<a href="/">他の記事</a>もどうですか?</p>
-      <hr>
-      </p>
+      <!-- <hr>                                                                                              -->
+      <!-- <p><a href="/about.html"><img src="/img/de-liker-new.svg" alt="" style="display: inline"></a></p> -->
+      <!-- <p>がお送りしました。<a href="/">他の記事</a>もどうですか?</p>                 -->
+      <!-- <hr>                                                                                              -->
+      <!-- </p> -->
     </article>
     <aside>
-      <!-- <p><img src="/img/de-liker-new.svg" alt=""><br> -->
-      <!-- <strong>DESIGN LIKE LINKS</strong></p>          -->
+      <h2>ナビ</h2>
       <ul> <li><a href="/">ブログトップ</a></li> <li><a href="/about.html">ブログについて</a></li> <li><a href="mailto:qsf@de-liker.com">フィードバックを送る</a></li> </ul>
       <h2>One more thing…</h2>
       <ul>
@@ -73,7 +72,7 @@ ga('send', 'pageview');
     </aside>
     <footer class="lp">
       <p><img src="/img/de-liker-new.svg" alt=""></p>
-      <p>copyright de-liKeR 2015</p>
+      <p>Copyright (c) 2015 de-liKeR</p>
       <p>Author:@CreatorQsF</p>
     </footer>
     <script>
@@ -103,7 +102,7 @@ class articleAttr {
         var attr = document.getElementsByTagName("de-attr")[0]
         attr.classList.remove("out")
         var title = document.querySelector("article > de-attr > p.title")
-        title.innerText = this.rules()[i].substring(0, 1).toUpperCase() + this.rules()[i].substring(1)
+        title.innerText = this.rules()[i].substring(0, 1).toUpperCase() + this.rules()[i].substring(1) + " ·"
         var desc = document.querySelector("article > de-attr > p.desc")
         desc.innerText = this.descriptions()[i]
       }

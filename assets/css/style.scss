@@ -1,0 +1,249 @@
+$black: rgb(50, 50, 50);
+$gray: rgb(160, 160, 160);
+$white: rgb(245, 245, 245);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  article,
+  header {
+    margin: 0 auto;
+    max-width: 960px;
+    color: $black;
+  }
+  article {
+    max-width: 800px;
+  }
+  @media screen and (max-width: 960px) {
+    article,
+    article,
+    header {
+      margin: 0 auto;
+      width: 100%;
+      padding: 0 32px;
+      color: $black;
+    }
+    header > div.title > h1 > a > img {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    header > div.title > h1 {
+      width: 100vw !important;
+    }
+    header > div.title {
+      flex-wrap: wrap;
+    }
+  }
+  background-color: $white;
+  font-family: "Roboto", "GenShin", sans-serif;
+  div.loadicon,
+  div.filter {
+    display: none;
+  }
+  header {
+    div.marks {
+      display: flex;
+      flex-direction: row;
+      left: 0;
+      position: fixed;
+      top: 0;
+      & > div {
+        height: 1px;
+        width: 25vw;
+      }
+      & > div.green {
+        background-color: #00a050;
+      }
+      & > div.blue {
+        background-color: #00a0c8
+      }
+      & > div.orange {
+        background-color: #ffa050;
+      }
+      & > div.pink {
+        background-color: #ffa0c8;
+      }
+    }
+    div.title {
+      align-items: center;
+      display: flex;
+      font-size: 12px;
+      height: 160px;
+      h1 {
+        display: inline-block;
+        // width: 128px;
+        a {
+          display: block;
+          img{
+            display: block;
+            height: 96px;
+            margin: 32px 16px 32px 16px;
+          }
+        }
+      }
+      & > a {
+        color: $gray;
+        display: inline-block;
+        letter-spacing: .1em;
+        text-decoration: none;
+        text-transform: uppercase;
+        vertical-align: middle;
+        &::before {
+          content: "\B7";
+          color: $gray;
+          font-weight: 900;
+          padding-right: 16px;
+          padding-left: 16px;
+        }
+        &:hover {
+          color: $black;
+        }
+      }
+    } 
+  } // header
+  article {
+    de-attr {
+      &.out {
+        display: none;
+      }
+      background-color: $black;
+      color: $white;
+      padding: 2px 16px;
+      & > p {
+        display: inline;
+      }
+      & > p.title {
+        font-weight: 900;
+        letter-spacing: .2em;
+      }
+      & > p.desc {
+        font-weight: 100;
+      }
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: .1em;
+      margin-top: 24px;
+    } // h1
+    h2 {
+      letter-spacing: .1em;
+      margin-top: 24px;
+      &::before {
+        content: "##";
+        color: $gray;
+        font-size: 16px;
+        padding-right: 8px;
+      }
+    } // h2
+    h3 {
+      color: $black;
+      font-size: 16px;
+      letter-spacing: .1em;
+      margin-top: 24px;
+      &::before {
+        content: "###";
+        color: $gray;
+        font-size: 16px;
+        padding-right: 8px;
+      }
+    } // h3
+    p {
+      font-weight: 400;
+      font-size: 13px;
+      letter-spacing: .1em;
+      line-height: 2.1em;
+      margin-top: 24px;
+    } // p
+    strong {
+      &::before {
+        content: "*";
+        padding-left: 8px;
+      }
+      &::after {
+        content: "*";
+        padding-right: 8px;
+      }
+    } // strong
+    a {
+      color: $black;
+      font-weight: bold;
+      padding: 0 8px;
+    }
+    ul,
+    ol {
+      font-size: 13px;
+      margin-top: 24px;
+      padding-left: 32px;
+      li {
+        font-family: "Roboto Mono";
+        letter-spacing: .1em;
+        line-height: 2.1em;
+      }
+    }
+    p.pub-date {
+      color: $gray;
+      font-family: "Roboto Mono", "GenShin", sans-serif;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .2em;
+    }
+    img {
+      max-width: 100%;
+    }
+    hr {
+      background-color: $gray;
+      border: none;
+      height: 2px;
+      margin: 48px 0;
+      width: 40px;
+    } // hr
+  } // article
+  aside {
+    padding: 64px calc( ( 100vw - 360px ) / 2 ) 32px calc( ( 100vw - 360px ) / 2 );
+  }
+  footer {
+    padding: 32px  calc( ( 100vw - 360px ) / 2 ) 64px calc( ( 100vw - 360px ) / 2 );
+  }
+  aside,
+  footer {
+    box-sizing: content-box;
+    font-family: "Roboto Mono", "GenShin", sans-serif;
+    width: 360px;
+    color: $white;
+    background-color: $black;
+    font-size: 13px;
+    letter-spacing: .2em;
+    line-height: 1.2em;
+    a {
+      color: $white;
+      letter-spacing: .2em;
+      line-height: 1.2em;
+    }
+    img {
+      width: 160px;
+    }
+    li {
+      letter-spacing: .2em;
+      line-height: 1.6em;
+    }
+    ul,
+    ol {
+      font-size: 13px;
+      list-style-type: none;
+      margin: 16px 0;
+    }
+  }
+  aside {
+    margin-top: 32px;
+  }
+} // body
+

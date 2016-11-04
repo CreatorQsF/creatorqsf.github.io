@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'GenShin';
+  src: url('/assets/fonts/GenShinGothic-P-ExtraLight.woff') format('woff')
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Light.woff') format('woff')
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Normal.woff') format('woff')
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Regular.woff') format('woff')
+  font-weight: 400;
+}
+ 
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Medium.woff') format('woff')
+  font-weight: 500;
+}
+ 
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Bold.woff') format('woff')
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GenShin';
+  src: url('./GenShinGothic-P-Heavy.woff') format('woff')
+  font-weight: 900;
+}
