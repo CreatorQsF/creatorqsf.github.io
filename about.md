@@ -5,7 +5,7 @@ title: About(作者とサイトについて)
 
 ## About Page
 
-今宵の月はどうでしょう。こんばんは、[@CreatorQsF](http://f.9en.co/?move=mainSns)です。  
+今宵の月はどうでしょう。こんばんは、[@CreatorQsF](https://de-liker.com/about.html)です。  
 このページは、このブログについてと私について、僭越ながら少しばかりお話させていただくという目的のもと[@CreatorQsF](http://f.9en.co/?move=mainSns)が書き綴らさせていただくものです。
 
 ***
