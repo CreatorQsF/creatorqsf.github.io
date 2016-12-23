@@ -12,7 +12,7 @@ body {
   body article,
   body header {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 800px;
     color: #323232; }
   body article {
     max-width: 800px; }
@@ -55,15 +55,15 @@ body {
     align-items: center;
     display: flex;
     font-size: 12px;
-    height: 160px; }
+    height: 96px;
+    margin: 48px 0 calc(48px + 16px) 0; }
     body header div.title h1 {
       display: inline-block; }
       body header div.title h1 a {
         display: block; }
         body header div.title h1 a img {
           display: block;
-          height: 96px;
-          margin: 32px 16px 32px 16px; }
+          height: 96px; }
     body header div.title > a {
       color: #a0a0a0;
       display: inline-block;
@@ -143,7 +143,7 @@ body {
       line-height: 2.1em; }
   body article p.pub-date {
     color: #a0a0a0;
-    font-family: "Roboto Mono", "GenShin", sans-serif;
+    font-family: "Roboto Mono", "GenShin", monospace;
     font-size: 12px;
     font-weight: 900;
     letter-spacing: .2em; }
@@ -155,6 +155,11 @@ body {
     height: 2px;
     margin: 48px 0;
     width: 40px; }
+  body article code {
+    font-family: "Roboto Mono", "GenShin", monospace;
+    background-color: #a0a0a0;
+    color: whitesmoke;
+    padding: 0 8px; }
   body aside {
     padding: 64px calc( ( 100vw - 360px ) / 2 ) 32px calc( ( 100vw - 360px ) / 2 ); }
   body footer {
