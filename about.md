@@ -8,7 +8,30 @@ title: About(作者とサイトについて)
 今宵の月はどうでしょう。こんばんは、[@CreatorQsF](https://de-liker.com/about.html)です。  
 このページは、このブログについてと私について、僭越ながら少しばかりお話させていただくという目的のもと[@CreatorQsF](http://f.9en.co/?move=mainSns)が書き綴らさせていただくものです。
 
-***
+---
+
+## tl;dr
+
+### Activities
+
+- [Google+ (My favorite SNS)](https://plus.google.com/+FumiTakeuchiQ)
+- [GitHub](https://github.com/Qs-F)
+- [Medium (@CreatorQsF)](https://medium.com/@CreatorQsF)
+- [Medium (de-liKeR)](https://medium.com/de-liker)
+- [Pinterest](https://jp.pinterest.com/CreatorQsF/)
+- [Ello](https://ello.co/qsf)
+- [Twitter (@CreatorQsF)](https://twitter.com/CreatorQsF)
+- [Twitter (@de\_liker)](https://twitter.com/de_liker)
+- [Facebook](https://www.facebook.com/CreatorQsF)
+- [Mail: qsf@de-liker.com](mailto:qsf@de-like.com)
+
+And more,
+
+- [りんごのなる木 Mac Story – Medium](https://medium.com/apple-tree-mac-story)
+- [ガジェットギーク](https://ggeek.me/archives/author/qsf)
+- [Queensya](http://queensya.com/)
+
+---
 
 ### このブログについて
 
@@ -28,7 +51,7 @@ de-liKeR初代は独自CMSで作られていました。またその流れを受
 
 が主になります。
 
-***
+---
 
 ### @CreatorQsFについて
 
@@ -51,7 +74,7 @@ de-liKeR初代は独自CMSで作られていました。またその流れを受
 
 名刺は[こちら](http://f.9en.co/v2)
 
-***
+---
 
 Go言語を使用したWebサービスの開発を受け付けております。連絡はこちらまで。  
 [Mail](mailto:qsf@de-liker.com)  
@@ -59,7 +82,7 @@ Go言語を使用したWebサービスの開発を受け付けております。
 お好みでMaterial Designではなく、デザインも行うことができます。  
 サイトデザインのみも受け付けております。
 
-***
+---
 
 #### 使える技術
 
@@ -73,7 +96,7 @@ Go言語を使用したWebサービスの開発を受け付けております。
 - webデザイン(コーディングまで含む)
 - フォント/書体について少し
 
-***
+---
 
 #### 研究したいこと/していること
 
@@ -83,7 +106,7 @@ Go言語を使用したWebサービスの開発を受け付けております。
 - Nexus/iPhone/Xperia/WindowsPhoneなどのスマートフォン/タブレット(募金お待ちしてます!!)
 - 量子暗号
 
-***
+---
 
 #### 好きなもの
 
@@ -97,7 +120,7 @@ Go言語を使用したWebサービスの開発を受け付けております。
 - 写真
 - chromebook
 
-***
+---
 
 #### 嫌いなもの
 
@@ -108,11 +131,11 @@ Go言語を使用したWebサービスの開発を受け付けております。
 こんな感じでしょうか。  
 基本的に言語と触れ合っているのが大好きです。
 
-***
+---
 
 こんな感じでしょうか。それではよろしくお願いします。
 
-***
+---
 
 #### 自慢したいこと(ムカつく人は見ないこと)
 
