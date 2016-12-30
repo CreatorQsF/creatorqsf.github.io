@@ -1,6 +1,6 @@
 ---
-layout:default
-title:"[Values] Mpow Lens, A Incredible External Lens For Smartphones."
+layout: default
+title: "[Values] Mpow Lens, A Incredible External Lens For Smartphones."
 ---
 
 Good evening, I'm [@CreatorQsF](https://de-liker.com/about.html).  
