@@ -14,11 +14,11 @@ And in one of their episode, the wonderful item was introduced.
 
 In this episode:
 
-[#012「デカ物スマホレンズ、Mpow 2in1 Clip-on　ワイド＆マクロ」 | 電器屋Walker](http://www.inst-web.com/denkiya_blog/2016/07/18/772)
+[#012「デカ物スマホレンズ、Mpow 2in1 Clip-on ワイド＆マクロ」 \| 電器屋Walker](http://www.inst-web.com/denkiya_blog/2016/07/18/772)
 
 And this item:
 
-[Amazon \| Mpow 2 in 1 Clip-Onレンズ 広角レンズ（0.6X）+マクロレンズ(10X) 専門カメラ（ネジ直径37mmだけ）/iPhone /アンドロイドなどスマートフォン用 | スマートフォン用カメラレンズ 通販](https://www.amazon.co.jp/dp/B019SMM3OG?tag=coffeemaker0d-22&camp=243&creative=1615&linkCode=as1&creativeASIN=B019SMM3OG&adid=047HH1370E8GA0C46RQJ&)
+[Amazon \| Mpow 2 in 1 Clip-Onレンズ 広角レンズ（0.6X）+マクロレンズ(10X) 専門カメラ（ネジ直径37mmだけ）/iPhone /アンドロイドなどスマートフォン用 \| スマートフォン用カメラレンズ 通販](https://www.amazon.co.jp/dp/B019SMM3OG?tag=coffeemaker0d-22&camp=243&creative=1615&linkCode=as1&creativeASIN=B019SMM3OG&adid=047HH1370E8GA0C46RQJ&)
 
 So, what is awesome? iPhone 7 plus dual camera isn't good?
 
