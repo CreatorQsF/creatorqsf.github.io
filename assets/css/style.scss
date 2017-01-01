@@ -96,6 +96,7 @@ body {
         text-decoration: none;
         text-transform: uppercase;
         vertical-align: middle;
+        margin: 24px 0;
         &::before {
           content: "\B7";
           color: $gray;

@@ -70,7 +70,8 @@ body {
       letter-spacing: .1em;
       text-decoration: none;
       text-transform: uppercase;
-      vertical-align: middle; }
+      vertical-align: middle;
+      margin: 24px 0; }
       body header div.title > a::before {
         content: "\B7";
         color: #a0a0a0;
