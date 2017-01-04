@@ -1,12 +1,15 @@
 ---
 layout: default
-title: About(作者とサイトについて)
+title: About @CreatoeQsF
 ---
 
 ## About Page
 
-今宵の月はどうでしょう。こんばんは、[@CreatorQsF](https://de-liker.com/about.html)です。  
-このページは、このブログについてと私について、僭越ながら少しばかりお話させていただくという目的のもと[@CreatorQsF](http://f.9en.co/?move=mainSns)が書き綴らさせていただくものです。
+Hello.
+
+I'm @CreatorQsF.
+
+![About @CreatorQsF](https://statics-de-liker-com.global.ssl.fastly.net/images/wf4Tu/card.jpg)
 
 ---
 
@@ -30,6 +33,124 @@ And more,
 - [りんごのなる木 Mac Story – Medium](https://medium.com/apple-tree-mac-story)
 - [ガジェットギーク](https://ggeek.me/archives/author/qsf)
 - [Queensya](http://queensya.com/)
+
+---
+
+- [English](#en)
+- [日本語](#ja)
+
+---
+
+<a name="en"></a>
+
+`English`
+
+---
+
+Good evening, I'm [@CreatorQsF](https://de-liker.com/about.html).  
+In this page, you can get the information about me and this blog, de-liKeR.
+
+---
+
+## About This Blog
+
+Since February 1, 2014, I have been the owner of the domain, `de-liker.com`.  
+The name of de-liKeR is @CreatorQsF's brand. Not related to other people, only me.
+
+At the first, I started the project at [Queensya](http://queensya.com), however in 2014 Queensya was restructured to an organization to have its own team members.  
+So that I lost my own domain. And get `de-liker.com` to establish this blog.
+
+Backend system changes description
+
+1. My own unique CMS (written in PHP)
+2. WordPress
+3. GitHub pages + Jekyll
+4. My own unique CMS like Jekyll (for some advantages) (written in Go) `Now`
+
+What I write
+
+- Design
+- Development (especially Go)
+- Tips
+- Apple products
+- Google products
+- Podcasts
+
+---
+
+## About @CreatorQsF
+
+![CreatorQsF Profile Image](https://s-media-cache-ak0.pinimg.com/originals/f7/a0/26/f7a0263467a9e103d02e59ff857f6e4a.jpg)
+
+The name of @CreatorQsF is `Fumi Takeuchi`'s a.k.a. and you can find my accounts on each platforms searching `CreatorQsF`.
+
+I'm in Japanese high school.
+
+---
+
+## Works
+
+I can help your web services development including design.
+
+- Web service written in Go
+- Angular + Material Design
+- Design only
+
+If you are interested in my works, you can contant me [Here](mailto:qsf@de-liker.com).
+
+## All My skills
+
+- Go
+- C
+- PHP
+- Others (docker, vagrant, WordPress, sass, vim, etc…)
+- Music
+- Logo design
+- Site Design (including coding)
+- About fonts
+
+## Interestings
+
+- AI
+- More safer and easier Login system
+- No Design
+- Nexus, Pixel, iPhone, Windows Phone, Xperia, and more (please give me:))
+- Quantum cryptography
+
+## Loves
+
+- [NORIROW'S DIARY](http://norirow.com)
+- [Google](https://google.com)
+- Apple Products
+- sakanaction
+- BOSE
+- Go
+- vim
+- Photos
+- Chromebooks
+
+## Dislikes
+
+- Microsoft
+- Adobe
+- Products which I can't feel creator's hope
+
+## Prides
+
+- Experiences: Lunch at Google
+- Have 400 just followers at G+ in Google Birthday
+- I can play drums very little
+
+---
+
+<a name="ja"></a>
+
+`日本語`
+
+---
+
+今宵の月はどうでしょう。こんばんは、[@CreatorQsF](https://de-liker.com/about.html)です。  
+このページは、このブログについてと私について、僭越ながら少しばかりお話させていただくという目的のもと[@CreatorQsF](http://f.9en.co/?move=mainSns)が書き綴らさせていただくものです。
 
 ---
 
