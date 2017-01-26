@@ -24,7 +24,7 @@ So, what is awesome? iPhone 7 plus dual camera isn't good?
 
 No.
 
-Mpow lens doesn't replace smartphone camera. It's alternative way of taking pictures. To expand your range of ways of expression, this can be ones of the solutions.
+Mpow lens doesn't replace smartphone camera. It's alternative way of taking pictures. To expand your range of ways of expression, this can be one of the solutions.
 
 Now let's look at the Mpow lens and review it.
 
@@ -131,4 +131,4 @@ Also, if you are interested to look at my wish list, please try this easy quiz!
 
 ---
 
-So if you are interesting my article, please subscribe [my blog](https://de-liker.com/rss/rss.xml) or [Medium](https://medium.com/de-liker) and see you again!
+So if you are interested of my article, please subscribe [my blog](https://de-liker.com/rss/rss.xml) or [Medium](https://medium.com/de-liker) and see you again!
