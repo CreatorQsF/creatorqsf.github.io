@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "de-liKeR's new concept, ”Sounds and Texts.”"
+title: "de-liKeR's new concept, “Sounds and Texts.”"
 ---
 
 Since de-liKeR has been established, its purpose is still "Design", "Link", and "Like".  
