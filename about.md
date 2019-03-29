@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About くすふ(CreatorQsF)
+title: About たふみ(CreatorQsF)
 ---
 
 Hello. I'm CreatorQsF.
