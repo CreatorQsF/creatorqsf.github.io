@@ -1,4 +1,5 @@
 ---
+redirect_to: "https://qsf.de-liker.com"
 layout: default
 title: About(作者とサイトについて)
 ---
