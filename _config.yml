@@ -11,3 +11,5 @@ permalink: none
 name: de-liKeR
 description: CreatorQsF Blog
 url: https://de-liker.com
+plugins:
+  - jekyll-redirect-from
